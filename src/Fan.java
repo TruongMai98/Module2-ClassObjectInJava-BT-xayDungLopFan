@@ -49,7 +49,7 @@ public class Fan {
     @Override
     public String toString() {
         if (isOn()) {
-            System.out.println("speed: " + getSpeed() + " olor: " + getColor() + " radius: " + getRadius() + " fan is on");
+            System.out.println("speed: " + getSpeed() + " color: " + getColor() + " radius: " + getRadius() + " fan is on");
         } else {
             System.out.println("speed: " + getSpeed() + " color: " + getColor() + " radius: " + getRadius() + " fan is off");
         }
